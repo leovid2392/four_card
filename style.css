@@ -1,3 +1,13 @@
+h1, h2{
+  margin: 0px;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .services {
   width: 400px;
   height: 250px;
@@ -10,23 +20,28 @@
   border-top: 5px solid hsl(180, 62%, 55%);
   border: 1px solid none;
   border-radius: 10px;
+  padding: 30px 30px;
 }
 
 .services_teamBuilder{
   border-top: 5px solid hsl(0, 78%, 62%);
   border: 1px solid none;
   border-radius: 10px;
+  padding: 30px 30px;
 }
 
 .services_karma{
   border-top: 5px solid hsl(34, 97%, 64%);
   border: 1px solid none;
   border-radius: 10px;
+  padding: 30px 30px;
 }
+
 .services_calculator{
   border-top: 5px solid hsl(212, 86%, 64%);
   border: 1px solid none;
   border-radius: 10px;
+  padding: 30px 30px;
 }
 /* Red: hsl(0, 78%, 62%)
 - Cyan: hsl(180, 62%, 55%)
