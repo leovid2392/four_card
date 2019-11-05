@@ -1,6 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   color: hsl(229, 6%, 66%);
   padding: 50px 30px;
 }
@@ -36,44 +36,58 @@ main{
 }
 
 .services {
-  width: 350px;
-  height: 250px;
-  border: 1px solid none;
-  border-radius: 10px;
+  /* width: 350px;
+  height: 250px; */
+  /* border: 1px solid none; */
+  /* border-radius: 10px; */
   /* border-top: 5px solid hsl(180, 62%, 55%); */
-  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
+  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
   margin: 20px 20px;
 }
 .services figure{
   text-align: right;
   margin: 0px;
 }
+
 .services_supervisor{
+  width: 250px;
+  height: 150px;
   border-top: 5px solid hsl(180, 62%, 55%);
   border: 1px solid none;
   border-radius: 10px;
   padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
+
 }
 
 .services_teamBuilder{
+  width: 250px;
+  height: 150px;
   border-top: 5px solid hsl(0, 78%, 62%);
   border: 1px solid none;
   border-radius: 10px;
   padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
 }
 
 .services_karma{
+  width: 250px;
+  height: 150px;
   border-top: 5px solid hsl(34, 97%, 64%);
   border: 1px solid none;
   border-radius: 10px;
   padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
 }
 
 .services_calculator{
+  width: 250px;
+  height: 150px;
   border-top: 5px solid hsl(212, 86%, 64%);
   border: 1px solid none;
   border-radius: 10px;
   padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
 }
 
 @media screen and (max-width:375px) {
@@ -102,7 +116,7 @@ header p{
   margin: 20px 0;
 }
 .services p {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 }
  /* Red: hsl(0, 78%, 62%)
