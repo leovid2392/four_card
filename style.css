@@ -2,7 +2,7 @@ body{
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   color: hsl(229, 6%, 66%);
-  padding-top: 50px;
+  padding: 50px 30px;
 }
 h1{
   margin: 0px;
@@ -16,8 +16,14 @@ h2{
 }
 
 header{
+
   text-align: center;
   font-weight: 200;
+}
+header p{
+  width: 500px;
+  display: inline-block;
+  margin-bottom: 45px;
 }
 
 header span{
@@ -71,9 +77,35 @@ main{
 }
 
 @media screen and (max-width:375px) {
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+h1{
+  font-size: 24px;
+}
+h2{
+  font-size: 20px;
+}
+
+body{
+  font-size: 12px;
+}
+
+header p{
+  width: 100%;
+  font-size: 15px;
 
 }
-/* Red: hsl(0, 78%, 62%)
+.services {
+  width: 100%;
+  margin: 20px 0;
+}
+.services p {
+  margin-bottom: 40px;
+}
+}
+ /* Red: hsl(0, 78%, 62%)
 - Cyan: hsl(180, 62%, 55%)
 - Orange: hsl(34, 97%, 64%)
 - Blue: hsl(212, 86%, 64%) */
