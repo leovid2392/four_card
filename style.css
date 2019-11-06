@@ -3,6 +3,7 @@ body{
   font-size: 15px;
   color: hsl(229, 6%, 66%);
   padding: 50px 30px;
+  margin: 0;
 }
 h1{
   margin: 0px;
@@ -32,53 +33,100 @@ header span{
 main{
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content:space-around;
 }
 
 .services {
-  width: 350px;
-  height: 250px;
-  border: 1px solid none;
-  border-radius: 10px;
-  /* border-top: 5px solid hsl(180, 62%, 55%); */
-  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
-  margin: 20px 20px;
+
 }
-.services figure{
+
+.services_group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ figure{
   text-align: right;
-  margin: 0px;
+  margin: 0;
 }
 .services_supervisor{
-  border-top: 5px solid hsl(180, 62%, 55%);
+  /* width: 250px; */
+  /* height: 150px; */
+  /* border-top: 5px solid hsl(180, 62%, 55%); */
+  /* border: 1px solid none; */
+  /* border-radius: 10px; */
+  /* padding: 30px 30px; */
+  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
+  width: 250px;
+  height: 150px;
   border: 1px solid none;
+  border-top: 5px solid hsl(180, 62%, 55%);
   border-radius: 10px;
-  padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
+  padding: 25px;
+  margin: 20px 0;
+
 }
 
 .services_teamBuilder{
-  border-top: 5px solid hsl(0, 78%, 62%);
+  /* width: 250px;
+  height: 150px; */
+  /* border-top: 5px solid hsl(0, 78%, 62%); */
+  /* border: 1px solid none; */
+  /* border-radius: 10px; */
+  /* padding: 30px 30px; */
+  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
+  width: 250px;
+  height: 150px;
   border: 1px solid none;
+  border-top: 5px solid hsl(0, 78%, 62%);
   border-radius: 10px;
-  padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
+  padding: 25px;
+  margin: 20px 0;
 }
 
 .services_karma{
-  border-top: 5px solid hsl(34, 97%, 64%);
+  /* width: 250px;
+  height: 150px; */
+  /* border-top: 5px solid hsl(34, 97%, 64%);
   border: 1px solid none;
+  border-radius: 10px; */
+  /* padding: 30px 30px; */
+  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
+  width: 250px;
+  height: 150px;
+  border: 1px solid none;
+  border-top: 5px solid hsl(34, 97%, 64%);
   border-radius: 10px;
-  padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
+  padding: 25px;
+  margin: 20px 0;
 }
 
 .services_calculator{
-  border-top: 5px solid hsl(212, 86%, 64%);
+  /* width: 250px;
+  height: 150px; */
+  /* border-top: 5px solid hsl(212, 86%, 64%);
   border: 1px solid none;
+  border-radius: 10px; */
+  /* padding: 30px 30px; */
+  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
+  width: 250px;
+  height: 150px;
+  border: 1px solid none;
+  border-top: 5px solid hsl(212, 86%, 64%);
   border-radius: 10px;
-  padding: 30px 30px;
+  box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3);
+  padding: 25px;
+  margin: 20px 0;
 }
 
+article p{
+  margin-bottom: 15px;
+}
 @media screen and (max-width:375px) {
 main{
-  display: flex;
   flex-wrap: wrap;
 }
 h1{
@@ -95,17 +143,4 @@ body{
 header p{
   width: 100%;
   font-size: 15px;
-
 }
-.services {
-  width: 100%;
-  margin: 20px 0;
-}
-.services p {
-  margin-bottom: 40px;
-}
-}
- /* Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%) */
