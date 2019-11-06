@@ -50,13 +50,6 @@ main{
   margin: 0;
 }
 .services_supervisor{
-  /* width: 250px; */
-  /* height: 150px; */
-  /* border-top: 5px solid hsl(180, 62%, 55%); */
-  /* border: 1px solid none; */
-  /* border-radius: 10px; */
-  /* padding: 30px 30px; */
-  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
   width: 250px;
   height: 150px;
   border: 1px solid none;
@@ -69,13 +62,6 @@ main{
 }
 
 .services_teamBuilder{
-  /* width: 250px;
-  height: 150px; */
-  /* border-top: 5px solid hsl(0, 78%, 62%); */
-  /* border: 1px solid none; */
-  /* border-radius: 10px; */
-  /* padding: 30px 30px; */
-  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
   width: 250px;
   height: 150px;
   border: 1px solid none;
@@ -87,13 +73,6 @@ main{
 }
 
 .services_karma{
-  /* width: 250px;
-  height: 150px; */
-  /* border-top: 5px solid hsl(34, 97%, 64%);
-  border: 1px solid none;
-  border-radius: 10px; */
-  /* padding: 30px 30px; */
-  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
   width: 250px;
   height: 150px;
   border: 1px solid none;
@@ -105,13 +84,6 @@ main{
 }
 
 .services_calculator{
-  /* width: 250px;
-  height: 150px; */
-  /* border-top: 5px solid hsl(212, 86%, 64%);
-  border: 1px solid none;
-  border-radius: 10px; */
-  /* padding: 30px 30px; */
-  /* box-shadow: 0px 0px 30px hsla(229, 6%, 66%, 0.3); */
   width: 250px;
   height: 150px;
   border: 1px solid none;
